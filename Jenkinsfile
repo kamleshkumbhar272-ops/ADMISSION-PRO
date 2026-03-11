@@ -5,7 +5,7 @@ pipeline {
         stage('Pull Code') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
+                url: 'https://github.com/kamleshkumbhar272-ops/ADMISSION-PRO.git'
             }
         }
 
